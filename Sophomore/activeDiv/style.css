@@ -1,0 +1,21 @@
+html, body{
+    height:100%;   
+}
+#container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:90%;
+    
+}
+div div{
+    border:1px solid black;
+    height: 50px;
+    width: 15%;
+    margin:3px;
+    text-align:center;
+}
+.active{
+    background-color: lightblue;
+    color:white;
+}
